@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://young-band-ba97.laodayizhi.workers.dev/ads-widget.js"></script>
+<title>搜索影片 - 国产老电影</title>
+    <meta name="description" content="搜索国产老电影、经典怀旧影片、抗战电影、文艺片和高清修复版内容。">
+    <meta name="keywords" content="国产老电影,经典怀旧,抗战电影,文艺片,高清修复版,流畅播放,免费观看,不卡顿,国产老片,经典电影,影片搜索">
+    <link rel="stylesheet" href="./assets/base.css">
+    <link rel="stylesheet" href="./assets/site.css">
+    
+</head>
+<body>
+<header class="site-header">
+    <div class="header-inner">
+        <a class="brand" href="./index.html" aria-label="国产老电影">
+            <span class="brand-mark">▶</span>
+            <span class="brand-text">
+                <strong>国产老电影</strong>
+                <small>免费高清在线观看</small>
+            </span>
+        </a>
+        <nav class="main-nav" aria-label="主导航">
+            <a class="nav-link " href="./index.html">首页</a>
+<a class="nav-link " href="./categories.html">分类</a>
+<a class="nav-link " href="./movies.html">片库</a>
+<a class="nav-link " href="./ranking.html">排行榜</a>
+<a class="nav-link is-active" href="./search.html">搜索</a>
+        </nav>
+        <form class="header-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <button class="menu-toggle" type="button" aria-label="打开导航" data-menu-toggle>☰</button>
+    </div>
+    <div class="mobile-panel" data-mobile-panel>
+        <form class="mobile-search" action="./search.html" method="get">
+            <input type="search" name="q" placeholder="搜索影片..." autocomplete="off">
+            <button type="submit">搜索</button>
+        </form>
+        <nav class="mobile-nav" aria-label="移动导航">
+            <a class="nav-link " href="./index.html">首页</a>
+<a class="nav-link " href="./categories.html">分类</a>
+<a class="nav-link " href="./movies.html">片库</a>
+<a class="nav-link " href="./ranking.html">排行榜</a>
+<a class="nav-link is-active" href="./search.html">搜索</a>
+        </nav>
+    </div>
+</header>
+<main>
+<section class="page-section">
+    <div class="section-head">
+        <div>
+            <div class="section-kicker">SEARCH</div>
+            <h1 class="section-title">搜索影片</h1>
+            <p class="section-desc">输入片名、地区、年份、题材或标签，快速查找可在线观看的经典影片。</p>
+        </div>
+        <a class="section-link" href="./movies.html">片库筛选 →</a>
+    </div>
+    <div class="search-panel">
+        <input type="search" placeholder="搜索影片标题、简介或标签" data-search-input autocomplete="off">
+        <button type="button" onclick="document.querySelector('[data-search-input]').dispatchEvent(new Event('input'))">搜索</button>
+    </div>
+    <div class="empty-state" data-search-empty>输入片名、地区、年份或标签即可搜索。</div>
+    <div class="search-results" data-search-results></div>
+</section>
+</main>
+<footer class="site-footer">
+    <div class="footer-inner">
+        <div>
+            <a class="footer-brand" href="./index.html">国产老电影</a>
+            <p>免费在线观看不卡顿的国产老电影，提供经典怀旧国产老片、抗战电影、文艺片高清修复版，流畅播放体验，重温经典时光</p>
+        </div>
+        <div>
+            <h2>经典分类</h2>
+            <div class="footer-links"><a href="./genre-juqing.html">剧情</a><a href="./genre-xiju.html">喜剧</a><a href="./genre-xuanyi.html">悬疑</a><a href="./genre-aiqing.html">爱情</a><a href="./genre-dongzuo.html">动作</a><a href="./genre-qihuan.html">奇幻</a><a href="./genre-fanzui.html">犯罪</a><a href="./genre-jingsong.html">惊悚</a></div>
+        </div>
+        <div>
+            <h2>快速入口</h2>
+            <div class="footer-links">
+                <a href="./movies.html">片库</a>
+                <a href="./ranking.html">排行榜</a>
+                <a href="./categories.html">分类</a>
+                <a href="./search.html">搜索</a>
+            </div>
+        </div>
+    </div>
+    <div class="footer-bottom">© 2026 国产老电影</div>
+</footer>
+<script src="./assets/site.js"></script>
+<script src="./assets/search-index.js"></script>
+<script>
+var _hmt = _hmt || [];
+(function() {
+  var hm = document.createElement("script");
+  hm.src = "https://hm.baidu.com/hm.js?60fa60a3da050a73eefefaaebe0afaf5";
+  var s = document.getElementsByTagName("script")[0]; 
+  s.parentNode.insertBefore(hm, s);
+})();
+</script>
+</body>
+</html>
